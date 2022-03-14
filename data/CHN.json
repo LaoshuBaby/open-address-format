@@ -1,38 +1,67 @@
 {
-    "displayOrder":"<addr:country> <addr:province> <addr:city> <addr:district> <addr:street> <addr:housenumber>",
-    "postcodeField": {
-      key: "addr:postcode",
-      displayName: "Postcode",
-      placeholder: "",
-    },
-    mainFields: [
-      {
-        displayName: "Province/Municipality/AR/SAR",
-        key: "addr:province",
-        placeholder: "",
-        "vaildRegex"
-      },
-      {
-        key: "addr:city",
-        displayName: "City/Prefecture/League",
-        placeholder: "",
-      },
-      {
-        key: "addr:district",
-        displayName: "District/County/Banner",
-        placeholder: "",
-      },
+    "displayOrder": "<addr:country> <addr:province> <addr:city> <addr:district> <addr:street> <addr:housenumber>",
+    "postalcode": [
+        {
+            "displayName": "Postcode",
+            "key": "addr:postcode",
+            "placeholder": "",
+            "vaildRegex": ""
+        },
+        {
+            "displayName": "Zipcode",
+            "key": "addr:zipcode",
+            "placeholder": "",
+            "vaildRegex": ""
+        }
     ],
-    detailFields: [
-      {
-        key: "addr:street",
-        displayName: "Street",
-        placeholder: "",
-      },
-      {
-        key: "addr:housenumber",
-        displayName: "House number",
-        placeholder: "",
-      },
+    "mainFields": [
+        {
+            "displayName": "省/自治区/直辖市/特别行政区",
+            "key": "addr:province",
+            "placeholder": "山东省",
+            "vaildRegex": "",
+            "globalTranslation":{
+                "en":"Province/Municipality/SAR"
+            }
+        },
+        {
+            "displayName": "地级市/地区/盟",
+            "key": "addr:city",
+            "placeholder": "济南市",
+            "vaildRegex": "",
+            "globalTranslation":{
+                "en":"City/Prefecture/League"
+            }
+        },
+        {
+            "displayName": "区/县/旗",
+            "key": "addr:district",
+            "placeholder": "历下区",
+            "vaildRegex": "",
+            "globalTranslation":{
+                "en":"District/County/Banner"
+            }
+        }
     ],
-  }
+    "detailFields": [
+        {
+            "displayName": "街道",
+            "key": "addr:street",
+            "placeholder": "解放东路",
+            "vaildRegex": "",
+            "globalTranslation":{
+                "en":"Street"
+            }
+        },
+        {
+            "displayName": "门牌号",
+            "key": "addr:housenumber",
+            "placeholder": "99",
+            "vaildRegex": "",
+            "note": "Shouldn't include '号'.",
+            "globalTranslation":{
+                "en":"House number"
+            }
+        }
+    ]
+}
