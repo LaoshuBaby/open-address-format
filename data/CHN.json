@@ -1,0 +1,38 @@
+{
+    "displayOrder":"<addr:country> <addr:province> <addr:city> <addr:district> <addr:street> <addr:housenumber>",
+    "postcodeField": {
+      key: "addr:postcode",
+      displayName: "Postcode",
+      placeholder: "",
+    },
+    mainFields: [
+      {
+        displayName: "Province/Municipality/AR/SAR",
+        key: "addr:province",
+        placeholder: "",
+        "vaildRegex"
+      },
+      {
+        key: "addr:city",
+        displayName: "City/Prefecture/League",
+        placeholder: "",
+      },
+      {
+        key: "addr:district",
+        displayName: "District/County/Banner",
+        placeholder: "",
+      },
+    ],
+    detailFields: [
+      {
+        key: "addr:street",
+        displayName: "Street",
+        placeholder: "",
+      },
+      {
+        key: "addr:housenumber",
+        displayName: "House number",
+        placeholder: "",
+      },
+    ],
+  }
