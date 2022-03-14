@@ -1,5 +1,12 @@
 {
-    "displayOrder": "<addr:country> <addr:province> <addr:city> <addr:district> <addr:street> <addr:housenumber>",
+    "displayFormat": [
+        "<addr:country>",
+        "<addr:province>",
+        "<addr:city>",
+        "<addr:district>",
+        "<addr:street>",
+        "<addr:housenumber>"
+    ],
     "postalcode": [
         {
             "displayName": "Postcode",
@@ -20,8 +27,8 @@
             "key": "addr:province",
             "placeholder": "山东省",
             "vaildRegex": "",
-            "globalTranslation":{
-                "en":"Province/Municipality/SAR"
+            "globalTranslation": {
+                "en": "Province/Municipality/SAR"
             }
         },
         {
@@ -29,8 +36,8 @@
             "key": "addr:city",
             "placeholder": "济南市",
             "vaildRegex": "",
-            "globalTranslation":{
-                "en":"City/Prefecture/League"
+            "globalTranslation": {
+                "en": "City/Prefecture/League"
             }
         },
         {
@@ -38,8 +45,8 @@
             "key": "addr:district",
             "placeholder": "历下区",
             "vaildRegex": "",
-            "globalTranslation":{
-                "en":"District/County/Banner"
+            "globalTranslation": {
+                "en": "District/County/Banner"
             }
         }
     ],
@@ -49,8 +56,8 @@
             "key": "addr:street",
             "placeholder": "解放东路",
             "vaildRegex": "",
-            "globalTranslation":{
-                "en":"Street"
+            "globalTranslation": {
+                "en": "Street"
             }
         },
         {
@@ -59,8 +66,8 @@
             "placeholder": "99",
             "vaildRegex": "",
             "note": "Shouldn't include '号'.",
-            "globalTranslation":{
-                "en":"House number"
+            "globalTranslation": {
+                "en": "House number"
             }
         }
     ]

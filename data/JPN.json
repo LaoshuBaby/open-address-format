@@ -1,42 +1,53 @@
 {
-      postcodeField: {
-        key: "addr:postcode",
-        displayName: "郵便番号",
-        placeholder: "101-0021",
-    },
-      mainFields: [
-        {
-          key: "addr:province",
-          displayName: "都道府県",
-          placeholder: "東京都",
-        },
-        {
-          key: "addr:city",
-          displayName: "市区町村",
-          placeholder: "千代田区",
-        },
-        {
-          key: "addr:quarter",
-          displayName: "地名",
-          placeholder: "外神田",
-        },
+    "displayFormat": [
+        "<addr:country>",
+        "〒",
+        "<addr:postcode>",
+        "<addr:province>",
+        "<addr:city>",
+        "<addr:quarter>",
+        "<addr:neighbourhood>",
+        "<addr:block_number>",
+        "<addr:housenumber>"
     ],
-      detailFields: [
+    "postcodeField": {
+        "displayName": "郵便番号",
+        "key": "addr:postcode",
+        "placeholder": "101-0021"
+    },
+    "mainFields": [
         {
-          key: "addr:neighbourhood",
-          displayName: "丁目",
-          placeholder: "1丁目",
+            "displayName": "都道府県",
+            "key": "addr:province",
+            "placeholder": "東京都"
         },
         {
-          key: "addr:block_number",
-          displayName: "番地",
-          placeholder: "17",
+            "displayName": "市区町村",
+            "key": "addr:city",
+            "placeholder": "千代田区"
         },
         {
-          key: "addr:housenumber",
-          displayName: "号",
-          placeholder: "6",
-          prefix: "-",
+            "displayName": "地名",
+            "key": "addr:quarter",
+            "placeholder": "外神田"
+        }
+    ],
+    "detailFields": [
+        {
+            "displayName": "丁目",
+            "key": "addr:neighbourhood",
+            "placeholder": "1丁目"
         },
+        {
+            "displayName": "番地",
+            "key": "addr:block_number",
+            "placeholder": "17"
+        },
+        {
+            "displayName": "号",
+            "key": "addr:housenumber",
+            "placeholder": "6",
+            "prefix": "-"
+        }
     ]
 }
