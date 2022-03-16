@@ -19,35 +19,65 @@
         {
             "displayName": "都道府県",
             "key": "addr:province",
-            "placeholder": "東京都"
+            "placeholder": "東京都",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "都道府县"
+            }
         },
         {
             "displayName": "市区町村",
             "key": "addr:city",
-            "placeholder": "千代田区"
+            "placeholder": "千代田区",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "市区町村"
+            }
         },
         {
             "displayName": "地名",
             "key": "addr:quarter",
-            "placeholder": "外神田"
+            "placeholder": "外神田",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "地名"
+            }
         }
     ],
     "detailFields": [
         {
             "displayName": "丁目",
             "key": "addr:neighbourhood",
-            "placeholder": "1丁目"
+            "placeholder": "1丁目",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "丁目"
+            }
         },
         {
             "displayName": "番地",
             "key": "addr:block_number",
-            "placeholder": "17"
+            "placeholder": "17",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "番地"
+            }
         },
         {
             "displayName": "号",
             "key": "addr:housenumber",
             "placeholder": "6",
-            "prefix": "-"
+            "prefix": "-",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "",
+                "zh": "号"
+            }
         }
     ]
 }
