@@ -4,6 +4,8 @@
 
 All files are in `/data` and named with country/region code in **ISO 3166-1 alpha-3**, the country/region name should also follow this standard.
 
+If postcode exist, the match between with provincal level administration and postcode may need validation.
+
 ## Related Project
 
 FYI
