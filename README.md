@@ -17,6 +17,8 @@ FYI
 
 + https://github.com/openstreetmap/iD/blob/develop/data/address_formats.json
 + https://github.com/streetcomplete/StreetComplete/blob/master/res/country_metadata/additionalValidHousenumberRegex.yml
++ https://github.com/JOSM/josm/blob/master/src/org/openstreetmap/josm/data/validation/tests/Addresses.java
++ https://github.com/JOSM/josm/blob/master/resources/data/validator/addresses.mapcss
 
 
 ## Note
