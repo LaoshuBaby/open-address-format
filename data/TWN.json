@@ -17,12 +17,21 @@
     ],
     "mainFields": [
         {
-            "displayName": "省/自治区/直辖市/特别行政区",
-            "key": "addr:province",
-            "placeholder": "山东省",
+            "displayName": "直辖市",
+            "key": "addr:city",
+            "placeholder": "新北市",
             "vaildRegex": "",
             "globalTranslation": {
-                "en": "Province/Municipality/SAR"
+                "en": "Municipality"
+            }
+        },
+        {
+            "displayName": "区",
+            "key": "addr:district",
+            "placeholder": "中和區",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "District"
             }
         }
     ],
@@ -30,7 +39,7 @@
         {
             "displayName": "街道",
             "key": "addr:street",
-            "placeholder": "解放东路",
+            "placeholder": "南京东路",
             "vaildRegex": "",
             "globalTranslation": {
                 "en": "Street"

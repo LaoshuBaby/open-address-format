@@ -1,6 +1,6 @@
 {
   "name": "open-address-format",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A structural description address format for every country or region.",
   "main": "index.js",
   "scripts": {
