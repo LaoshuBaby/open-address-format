@@ -1,0 +1,40 @@
+{
+    "displayFormat": [
+        "<addr:country>",
+        "<addr:province>",
+        "<addr:city>",
+        "<addr:district>",
+        "<addr:street>",
+        "<addr:housenumber>"
+    ],
+    "postalcode": [
+        {
+            "displayName": "Postcode",
+            "key": "addr:postcode",
+            "placeholder": "",
+            "vaildRegex": ""
+        }
+    ],
+    "mainFields": [
+        {
+            "displayName": "省/自治区/直辖市/特别行政区",
+            "key": "addr:province",
+            "placeholder": "山东省",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "Province/Municipality/SAR"
+            }
+        }
+    ],
+    "detailFields": [
+        {
+            "displayName": "街道",
+            "key": "addr:street",
+            "placeholder": "解放东路",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "Street"
+            }
+        }
+    ]
+}
