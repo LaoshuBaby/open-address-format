@@ -1,0 +1,35 @@
+{
+    "displayFormat": [
+        "<addr:country>"
+    ],
+    "postalcode": [
+        {
+            "displayName": "Postcode",
+            "key": "addr:postcode",
+            "placeholder": "",
+            "vaildRegex": ""
+        }
+    ],
+    "mainFields": [
+        {
+            "displayName": "Native Name",
+            "key": "addr:x",
+            "placeholder": "Display Example",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "English Name"
+            }
+        }
+    ],
+    "detailFields": [
+        {
+            "displayName": "Native Name",
+            "key": "addr:y",
+            "placeholder": "Display Example",
+            "vaildRegex": "",
+            "globalTranslation": {
+                "en": "English Name"
+            }
+        }
+    ]
+}
