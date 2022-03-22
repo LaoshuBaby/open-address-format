@@ -6,6 +6,14 @@ All files are in `/data` and named with country/region code in **ISO 3166-1 alph
 
 If postcode exist, the match between with provincal level administration and postcode may need validation.
 
+## Hoped Usage
+
+Like [this](https://github.com/openstreetmap/iD/blob/344a9031701f81e18b731974478d04e9f01c9ae9/modules/services/nsi.js#L43-L64), who want to use those data should load a index.json and then find countries/regions wanted.
+
+Currently, when request https://cdn.jsdelivr.net/npm/open-address-format it will give a message:
+
+> Couldn't find the requested file /index.min.js in open-address-format.
+
 ## Related Project
 
 FYI

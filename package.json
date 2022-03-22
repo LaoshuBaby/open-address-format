@@ -1,8 +1,10 @@
 {
   "name": "open-address-format",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A structural description address format for every country or region.",
-  "main": "index.js",
+  "main": "index.json",
+  "type": "module",
+  "module": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
