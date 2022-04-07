@@ -1,12 +1,15 @@
 {
-    "displayFormat": [
-        "<addr:country>",
-        "<addr:province>",
-        "<addr:city>",
-        "<addr:district>",
-        "<addr:street>",
-        "<addr:housenumber>"
-    ],
+    "basicInfo":{
+        "displayFormat": [
+            "<addr:country>",
+            "<addr:province>",
+            "<addr:city>",
+            "<addr:district>",
+            "<addr:street>",
+            "<addr:housenumber>"
+        ],
+        "describeOrder":"L2S"
+    },
     "postalcode": [
         {
             "displayName": "Postcode",

@@ -1,15 +1,18 @@
 {
-    "displayFormat": [
-        "<addr:country>",
-        "〒",
-        "<addr:postcode>",
-        "<addr:province>",
-        "<addr:city>",
-        "<addr:quarter>",
-        "<addr:neighbourhood>",
-        "<addr:block_number>",
-        "<addr:housenumber>"
-    ],
+    "basicInfo":{
+        "displayFormat": [
+            "<addr:country>",
+            "〒",
+            "<addr:postcode>",
+            "<addr:province>",
+            "<addr:city>",
+            "<addr:quarter>",
+            "<addr:neighbourhood>",
+            "<addr:block_number>",
+            "<addr:housenumber>"
+        ],
+        "describeOrder":"L2S"
+    },
     "postcodeField": {
         "displayName": "郵便番号",
         "key": "addr:postcode",

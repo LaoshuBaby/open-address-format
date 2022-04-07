@@ -1,7 +1,10 @@
 {
-    "displayFormat": [
-        "<addr:country>"
-    ],
+    "basicInfo":{
+        "displayFormat": [
+            "<addr:country>"
+        ],
+        "describeOrder":"S2L"
+    },
     "postalcode": [
         {
             "displayName": "Postcode",
