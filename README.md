@@ -34,6 +34,9 @@ FYI
 + https://github.com/JOSM/josm/blob/master/src/org/openstreetmap/josm/data/validation/tests/Addresses.java
 + https://github.com/JOSM/josm/blob/master/resources/data/validator/addresses.mapcss
 
+## Reference
+
+There will list some document and resource that can be seen knowledge in JSON format.
 
 ## Note
 

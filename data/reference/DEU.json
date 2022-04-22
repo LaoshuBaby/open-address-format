@@ -1,0 +1,19 @@
+{
+    "DEU":[
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Address#Germany"
+        },
+        {
+            "type":"placename",
+            "source":"Deutsch Wikipedia",
+            "url":"https://de.wikipedia.org/wiki/Wohnadresse"
+        },
+        {
+            "type":"placename",
+            "source":"Deutsch Wikipedia",
+            "url":"https://de.wikipedia.org/wiki/Postanschrift"
+        }
+    ]
+}

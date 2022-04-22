@@ -1,0 +1,24 @@
+{
+    "TWN":[
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Address#Taiwan"
+        },
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Postal_addresses_in_Taiwan"
+        },
+        {
+            "type":"placename",
+            "source":"中文維基百科",
+            "url":"https://zh.wikipedia.org/wiki/地址#中華民國"
+        },
+        {
+            "type":"postcode",
+            "source":"中文維基百科",
+            "url":"https://zh.wikipedia.org/wiki/臺灣地區郵遞區號一覽表"
+        }
+    ]
+}

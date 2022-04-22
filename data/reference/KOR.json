@@ -1,0 +1,19 @@
+{
+    "KOR":[
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Address#South_Korea"
+        },
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Addresses_in_South_Korea"
+        },
+        {
+            "type":"placename",
+            "source":"한국어 위키백과",
+            "url":"https://ko.wikipedia.org/wiki/대한민국의_주소"
+        }
+    ]
+}
