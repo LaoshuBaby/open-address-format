@@ -1,0 +1,14 @@
+{
+    "CHN":[
+        {
+            "type":"placename",
+            "source":"English Wikipedia",
+            "url":"https://en.wikipedia.org/wiki/Address#China"
+        },
+        {
+            "type":"postcode",
+            "source":"中文维基百科",
+            "url":"https://zh.wikipedia.org/wiki/中华人民共和国境内地区邮政编码列表"
+        }
+    ]
+}
