@@ -22,6 +22,10 @@ Currently, when request https://cdn.jsdelivr.net/npm/open-address-format it will
 
 FYI
 
+### Inspired by
+
++ https://github.com/yuiseki/osm-address-editor-vite
+
 ### Convert from country code with geojson
 
 + https://github.com/ideditor/country-coder
@@ -33,6 +37,19 @@ FYI
 + https://github.com/streetcomplete/StreetComplete/blob/master/res/country_metadata/additionalValidHousenumberRegex.yml
 + https://github.com/JOSM/josm/blob/master/src/org/openstreetmap/josm/data/validation/tests/Addresses.java
 + https://github.com/JOSM/josm/blob/master/resources/data/validator/addresses.mapcss
+
+### Faker package in different language
+
++ **JS**: https://github.com/faker-js/faker/blob/main/src/locales/zh_CN/address/index.ts
++ **Python**: https://github.com/joke2k/faker/blob/master/faker/providers/address/zh_CN/__init__.py
++ **Java**: https://github.com/DiUS/java-faker/blob/master/src/main/resources/zh-CN.yml
++ **C#**: https://github.com/slashdotdash/faker-cs/blob/master/src/Faker/Address.cs
++ **Golang**: https://github.com/bxcodec/faker/blob/master/address_test.go
++ **Rust**: https://github.com/cksac/fake-rs/blob/b897246bbe99a158977a03236c393c8d7b476823/fake/src/faker/impls/address.rs
++ **PHP**: https://github.com/fzaninotto/Faker/blob/master/src/Faker/Provider/zh_CN/Address.php
++ **Ruby**: https://github.com/faker-ruby/faker/blob/aa31845ed54c25eb2638d716bfddf59771b502aa/lib/faker/default/address.rb
++ **Swift**: https://github.com/vadymmarkov/Fakery/blob/71cb3bf36a808534659d1248780c2bf3c4c4fc91/Sources/Fakery/Generators/Address.swift
++ **Elixir**: https://github.com/elixirs/faker/blob/master/lib/faker/address/en.ex
 
 ## Reference
 
